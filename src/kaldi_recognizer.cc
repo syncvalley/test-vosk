@@ -614,6 +614,14 @@ const char* KaldiRecognizer::Result()
     return GetResult();
 }
 
+
+const char* KaldiRecognizer::TestWorld()
+{
+    
+    return "Hello World";
+}
+
+
 const char* KaldiRecognizer::FinalResult()
 {
     if (state_ != RECOGNIZER_RUNNING) {
