@@ -52,7 +52,6 @@ class KaldiRecognizer {
         const char* Result();
         const char* FinalResult();
         const char* PartialResult();
-        const char* TestWorld();
         
     private:
         void InitState();

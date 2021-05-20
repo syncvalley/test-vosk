@@ -174,8 +174,6 @@ int vosk_recognizer_accept_waveform_f(VoskRecognizer *recognizer, const float *d
  */
 const char *vosk_recognizer_result(VoskRecognizer *recognizer);
 
-const char *vosk_recognizer_test_world(VoskRecognizer *recognizer);
-
 /** Returns partial speech recognition
  *
  * @returns partial speech recognition text which is not yet finalized.

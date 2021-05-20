@@ -85,12 +85,6 @@ const char *vosk_recognizer_result(VoskRecognizer *recognizer)
     return ((KaldiRecognizer *)recognizer)->Result();
 }
 
-const char *vosk_recognizer_test_world(VoskRecognizer *recognizer)
-{
-    return ((KaldiRecognizer *)recognizer)->TestWorld();
-}
-
-
 const char *vosk_recognizer_partial_result(VoskRecognizer *recognizer)
 {
     return ((KaldiRecognizer *)recognizer)->PartialResult();

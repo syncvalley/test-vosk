@@ -37,6 +37,8 @@ python/test/model
 python/test/ref
 python/test/result.txt
 python/test/wav.scp
+python/example/model
+python/.eggs/
 
 # Java
 *.class
